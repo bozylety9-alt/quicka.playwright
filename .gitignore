@@ -1,0 +1,36 @@
+# Dépendances
+node_modules/
+package-lock.json
+
+# Secrets et configuration locale
+.env
+.env.local
+.env.*.local
+
+# Sessions et authentifications
+.auth/
+*.session
+
+# Résultats de tests
+reports/
+test-results/
+playwright-report/
+dist/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Playwright
+.playwright/
+blob-report/

@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test --project=api",
+    "test:ui": "playwright test --project=ui",
+    "test:api:smoke": "playwright test --project=api tests/api/smoke.spec.ts",
+    "report": "playwright show-report reports/html"
+  }
+}
+
